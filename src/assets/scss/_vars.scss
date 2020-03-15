@@ -1,0 +1,62 @@
+$colorError: #d32f2f;
+$colorSuccess: #009943;
+$unit: 8;
+
+$colorDark1: #1F2225;
+$colorDark2: #2E3137;
+$colorDark3: #36393E;
+$colorDark4: #45474c;
+
+$colorPrimary-500: #d3a402;
+
+$colorSecondary-500: #077bd3;
+
+$color2-200: rgb(26, 45, 97);
+$color2-400: rgb(46, 74, 126);
+$color2-600: rgb(63, 98, 139);
+
+$colorGray-300: #595959;
+$colorGray-600: #bcbcbc;
+$colorGray-900: #f7f7f7;
+
+@mixin media-320() {
+  @media all and (max-width: 320px) {
+    @content;
+  }
+}
+
+@mixin media-480() {
+  @media all and (max-width: 480px) {
+    @content;
+  }
+}
+
+@mixin media-640() {
+  @media all and (max-width: 640px) {
+    @content;
+  }
+}
+
+@mixin media-768() {
+  @media all and (max-width: 768px) {
+    @content;
+  }
+}
+
+@mixin media-960() {
+  @media all and (max-width: 960px) {
+    @content;
+  }
+}
+
+@mixin media-1200() {
+  @media all and (max-width: 1200px) {
+    @content;
+  }
+}
+
+@mixin media-1440() {
+  @media all and (max-width: 1440px) {
+    @content;
+  }
+}
